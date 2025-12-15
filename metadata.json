@@ -1,0 +1,5 @@
+{
+  "name": "PBL Expert Assistant",
+  "description": "An AI-powered expert assistant for Swedish building laws (PBL, BBR), providing context-aware legal guidance for architects and engineers.",
+  "requestFramePermissions": []
+}
