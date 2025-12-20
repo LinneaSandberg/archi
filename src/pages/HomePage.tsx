@@ -8,6 +8,10 @@ const Home = () => {
         navigate('/assistent');
     };
 
+    const handleLogin = () => {
+        navigate('/login');
+    };
+
     return (
         <div className="min-h-screen w-full bg-gradient-to-br from-slate-950 via-slate-900 to-slate-900 overflow-hidden relative font-sans">
             {/* Navigation */}
@@ -23,7 +27,12 @@ const Home = () => {
                     <a href="#" className="text-slate-300 hover:text-white transition">Features</a>
                     <a href="#" className="text-slate-300 hover:text-white transition">Marketplace</a>
                     <a href="#" className="text-slate-300 hover:text-white transition">Company</a>
-                    <button className="text-slate-300 hover:text-white transition">Log in</button>
+                    <button
+                        onClick={handleLogin}
+                        className="text-slate-300 hover:text-white transition"
+                    >
+                        Log in
+                    </button>
                 </div>
             </nav>
 
